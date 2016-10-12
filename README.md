@@ -17,7 +17,7 @@ scSearcher.init('YOUR_CLIENT_ID')
 sc.search({
     name:'witcher3', 
     limit: 10, 
-    genre: sc.genre.Soundtrack,
+    genres: [sc.genre.Soundtrack],
     tags: ['videogame', 'witcher']
     }, (res) =>{
   console.log(res)
