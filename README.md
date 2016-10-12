@@ -8,6 +8,17 @@ npm i --save soundcloud-searcher
 ```
 
 ## Usage
+```js
+var scSearcher = require('soundcloud-searcher')
+
+// Initi with your clientId. https://soundcloud.com/you/apps
+scSearcher.init('YOUR_CLIENT_ID')
+
+sc.search({name:'witcher3', limit: 10, genre: sc.genre.Soundtrack}, (res) =>{
+  console.log(res)
+})
+
+// ...
 
 ## License
 
