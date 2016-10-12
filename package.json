@@ -1,0 +1,30 @@
+{
+  "name": "soundcloud-searcher",
+  "version": "0.1.0",
+  "description": "Find the tracks you want",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamWertarbyte/soundcloud-searcher.git"
+  },
+  "keywords": [
+    "soundcloud",
+    "search",
+    "music"
+  ],
+  "author": "Wertarbyte <kontakt@wertarbyte.com> (https://wertarbyte.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeamWertarbyte/soundcloud-searcher/issues"
+  },
+  "homepage": "https://github.com/TeamWertarbyte/soundcloud-searcher#readme",
+  "devDependencies": {
+    "request": "^2.75.0"
+  },
+  "peerDependencies": {
+    "request": "^2.75.0"
+  }
+}
