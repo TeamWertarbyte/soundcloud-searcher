@@ -13,14 +13,19 @@ var scSearcher = require('soundcloud-searcher')
 // Initi with your clientId. https://soundcloud.com/you/apps
 scSearcher.init('YOUR_CLIENT_ID')
 
-scSearcher.search({ name: 'witcher3', limit: 5, genres: [sc.genre.Soundtrack], tags: ['videogame', 'witcher'] })
+var options = {
+  name: 'witcher3',
+  limit: 5, genres: [scSearcher.genre.Soundtrack],
+  tags: ['videogame', 'witcher']
+}
+
+scSearcher.search(options)
   .then((result) => {
     console.log(result)
   })
   .catch((error) => {
     console.log(error)
   })
-})
 
 // ...
 ```
