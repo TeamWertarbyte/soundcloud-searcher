@@ -11,7 +11,9 @@ npm i --save soundcloud-searcher
 var scSearcher = require('soundcloud-searcher')
 
 // Initi with your clientId. https://soundcloud.com/you/apps
-scSearcher.init('YOUR_CLIENT_ID')
+// scSearcher.init('YOUR_CLIENT_ID')
+// Take my clientID for testing
+scSearcher.init('2uFpHTPfMiHei6CGgPlTMXoeTUtBp9Iy')
 
 var options = {
   name: 'witcher3',
