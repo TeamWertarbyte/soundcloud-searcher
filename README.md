@@ -1,4 +1,6 @@
 # Soundcloud Searcher
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/TeamWertarbyte/soundcloud-searcher.svg)](https://greenkeeper.io/)
 Search soundcloud and find good tracks. Filter them by genre to extract what you need.
 
 ## Installation
